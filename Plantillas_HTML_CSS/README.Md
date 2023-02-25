@@ -4,40 +4,44 @@ En esta carpeta encontrarás materiales para crear plantillas impresionantes uti
 
 ## Podrás utilizar las siguientes plantillas:
 
+<div style="text-align:center">
+
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">404</span>
 
-![Imagen](../Images/404.png)
-<img src="../Images/404.png" alt="texto alternativo de la imagen" width="100"/>
 
+<img src="../Images/404.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Card Read More</span>
 
-![Imagen](../Images/cardsReadMore.png)
+<img src="../Images/cardsReadMore.png" alt="texto alternativo de la imagen" width="300"/>
+
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Ying Yang</span>
 
-![Imagen](../Images/yingYang.png)
+<img src="../Images/yingYang.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Dropdown Menu</span>
 
-![Imagen](../Images/dropdownMenu.png)
+<img src="../Images/dropdownMenu.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Flip Product</span>
 
-![Imagen](../Images/flipProduct.png)
+<img src="../Images/flipProduct.png" alt="texto alternativo de la imagen" width="300"/>
 
-### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Flip Product</span>
-### Loading
-![Imagen](../Images/loading.png)
+### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Loading</span>
+
+<img src="../Images/loading.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">NavEffects</span>
 
-![Imagen](../Images/navEffects.png)
+<img src="../Images/navEffects.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Neumorphism Loading</span>
 
-![Imagen](../Images/loadingNeumorphims.png)
+<img src="../Images/loadingNeumorphims.png" alt="texto alternativo de la imagen" width="300"/>
 
 ### <span style="text-align:center; display:block; font-size:2rem; text-shadow:2px 2px #dcdcdc; margin-top:2rem; margin-bottom:1rem;">Video Background</span>
 
-![Imagen](../Images/videoBackground.png)
+<img src="../Images/videoBackground.png" alt="texto alternativo de la imagen" width="300"/>
+
+</div>
