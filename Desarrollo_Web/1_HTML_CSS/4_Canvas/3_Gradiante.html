@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradiante</title>
+  </head>
+  <body>
+    <canvas width="300" height="300" id="canvas"></canvas>
+
+    <script type="application/javascript">
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+
+      // GRADIANTES
+      // createLinearGradient(inicioX,inicioY,ancho,alto) [FORMA DE AGREGAR UN GRADIANTE]
+      var gradiante = ctx.createLinearGradient(0, 0, 0, canvas.height);
+      // Añadimos el gradiante
+      gradiante.addColorStop(0, '#fff');
+      gradiante.addColorStop(1, '#000');
+      // le damos el color
+      ctx.fillStyle = gradiante;
+      // Para que me ocupe un cuadrado el gradiante
+      ctx.fillRect(0,0,canvas.width,canvas.height)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+----------------------------------------------------------------------
+OPERADORES PRINCIPALES (TODOS LOS OPERADORES SE PUEDEN COMBINAR):
+=> Use el operador + para colocar elementos cerca uno del otro, en el mismo nivel:
+Operador Hermano : +
+
+div+h1+h2 :
+<div></div>
+<h1></h1>
+<h2></h2>
+
+=> Puedes usar el operador > para anidar elementos uno dentro del otro: Operador Hijo: >
+
+div>article>p
+
+<div>
+    <article>
+        <p></p>
+    </article>
+</div>
+----------------------------------------------------------------------
+=> OPERADOR DE ATRIBUTO DE CLASE: .
+Para especificar la clase (class) a la que pertenece el elemento.
+
+div.header
+
+<div class=”header”></div>
+
+=>Operador de id:  #
+Para especificar el Id del elemento
+h1#myId
+<h1 id=”myId”></h1>
+----------------------------------------------------------------------
+=>Texto: {  }
+Para escribir texto en el elemento:
+
+h1{hello}
+
+<h1>hello</h1>
+----------------------------------------------------------------------
+Notación de atributos: [ attr ]
+Para especificar cualquier otro atributo del elemento
+
+input[type=”radio”]#myInput
+
+<input type=”radio” id=”myInput”>
+----------------------------------------------------------------------
+=> Multiplicación:  *
+Para definir cuántas veces se debe enviar el elemento
+
+li*3
+
+<li></li>
+<li></li>
+<li></li>
+----------------------------------------------------------------------
+=> Numeración de elementos: $
+Con el operador de multiplicación * puedes repetir elementos, pero con $ puedes enumerarlos. Coloca el operador $  dentro del nombre del elemento, el nombre del atributo o el valor del atributo para generar el número actual del elemento repetido:
+
+div*5{myDiv$}
+
+<div>myDiv1</div>
+<div>myDiv2</div>
+<div>myDiv3</div>
+<div>myDiv4</div>
+<div>myDiv5</div>
+----------------------------------------------------------------------
+=> Modificadores a este comando usando múltiples $$$ (para anteponer Ceros)
+
+div*5{myDiv$$$}
+
+<div>myDiv001</div>
+<div>myDiv002</div>
+<div>myDiv003</div>
+<div>myDiv004</div>
+<div>myDiv005</div>
+----------------------------------------------------------------------
+=> Subir de nivel: ^
+Al utilizar el operador > Hijo, Emmet entra al subnivel del elemento solicitado como en:
+div>ul>li
+
+dará como resultado:
+<div>
+    <ul>
+        <li></li> <- nivel actual
+    </ul>
+</div>
+
+Sin embargo, si deseamos continuar la expresión en un nivel superior al nivel en que termina la expresión podremos utilizar el comando ^ para subir al nivel inmediato superior en la expresión, por ejemplo:
+div>ul>li^div>h1
+
+dará como resultado:
+<div>
+    <ul>
+        <li></li> <-Nivel antes de ^
+    </ul>
+    <div>  <-Nivel después de ^
+        <h1></h1>
+    </div>
+</div>
+----------------------------------------------------------------------

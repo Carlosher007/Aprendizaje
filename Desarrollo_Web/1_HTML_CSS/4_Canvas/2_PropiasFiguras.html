@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis Figuras</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="1000px" height="1000px">
+      <script type="application/javascript">
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+
+        // COLORES
+        // Puedes colocar el nombre = "green"
+        // Puedes colcar con hexadecimal = "#hexadecimal"
+        // Puedes colocar con rgb = "rgb(255,77,71)"
+        // Puedes colocar con rgba = "rgb(255,77,71,0.6)"
+        ctx.fillStyle = "green"
+        // UTILIZAR LineTo y MoveTo
+        ctx.beginPath(); //Empezar un dibujo (sirve para dar una cordenada origen y que ahi empiece a dibujar)
+        ctx.moveTo(25, 25); //Levantar el lapiz y ponerlo en un punto especifico
+        ctx.lineTo(105, 25); //Dibujar una linea con lineTo del punto (25,25) a (105,25)
+        ctx.lineTo(25, 105);
+        ctx.closePath(); //Cerramos el dibujo
+        ctx.fill(); //Rellenarlo
+
+        // COLOR
+        // Es lo mismo pero con stroke
+        ctx.strokeStyle="green"
+        // OTRA FIGURA
+        ctx.beginPath();
+        ctx.moveTo(125, 125);
+        ctx.lineTo(125, 45);
+        ctx.lineTo(45, 125);
+        ctx.closePath();
+        ctx.stroke(); //Solo muestra contorno
+      </script>
+    </canvas>
+  </body>
+</html>
