@@ -1,14 +1,13 @@
-# Aprendizaje :rocket:
+# Aprendizaje 🚀
 
 Este repositorio contiene materiales que he aprendido y considero interesantes, los cuales podrían ser útiles no solo para mí, sino también para otras personas.
 
-## Carpetas :file_folder:
+## Carpetas 📂
 
 | Carpeta | Descripción | Tecnologías utilizadas |
 | ------- | ----------- | ----------------------|
-| Desarrollo_Web | Materiales relacionados con el desarrollo web utilizando HTML y CSS. | HTML, CSS |
-| Plantillas_HTML_CSS | Materiales sobre la creación de plantillas utilizando HTML, CSS y React. | HTML, CSS, React |
-| Razlika | Página web con backend y frontend utilizando React, GraphQL, Mongoose, Javascript y Tailwind CSS, entre otras tecnologías. | React, GraphQL, Mongoose, Javascript, Tailwind CSS, etc. |
+| Desarrollo_Web | Materiales usados para iniciar en el desarrollo web con HTML y CSS. Aprender a crear páginas web desde cero, cómo darle estilo y hacer que sean responsive. | HTML, CSS |
+| Plantillas_HTML_CSS | En esta carpeta encontrarás materiales para crear plantillas impresionantes utilizando HTML, CSS y React. Con diseños que hice y me parecieron muy interesantes y reutilizables en cualquier proyecto. | HTML, CSS, React |
+| Razlika 🌐 | Página web creada en el proceso de aprendizaje del programa MINTIC 2022. Permite a los usuarios registrarse y categorizarse como estudiantes, líderes o administradores para interactuar en el manejo y revisión de cursos ofrecidos, así como también para interactuar entre ellos. | React, GraphQL, Mongoose, Javascript, Tailwind CSS, entre otras |
 
-
-Espero que encuentres estos materiales útiles. ¡Gracias por visitar mi repositorio! :smile:
+Espero que encuentres estos materiales útiles. ¡Gracias por visitar mi repositorio! 😃
