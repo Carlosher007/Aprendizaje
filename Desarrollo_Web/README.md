@@ -1,2 +1,3 @@
 # Desarrollo_Web
-Proyecto en donde guardare todo lo aprendido y proyecto del curso de Desarrollo Web
+
+Materiales usados para iniciar en el desarrollo web con HTML y CSS. Aprender a crear páginas web desde cero, cómo darle estilo y hacer que sean responsive
