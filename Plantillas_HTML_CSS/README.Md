@@ -24,7 +24,10 @@ h3 {
   }
 
   .image-row img {
-    max-width: 400px;
+    max-width: 250px;
+    max-height: 200px;
+    /* width: 100%; */
+    /* height: 100%; */
     margin: 0 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
